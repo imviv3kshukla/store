@@ -38,6 +38,8 @@ module Data.Store
     , GStoreSize, GStorePoke, GStorePeek
     -- ** Exceptions thrown by Peek
     , PeekException(..), peekException
+    , sizeStorable
+    , sizeStorableTy
     ) where
 
 import Data.Store.Internal

@@ -63,6 +63,8 @@ module Data.Store.Internal
     -- 'IsStaticSize' is only supported for strict ByteStrings, in order
     -- to support the use case of 'Tagged'.
     , IsStaticSize(..), StaticSize(..), toStaticSizeEx, liftStaticSize, staticByteStringExp
+    , sizeStorable
+    , sizeStorableTy
     ) where
 
 import           Control.Applicative
